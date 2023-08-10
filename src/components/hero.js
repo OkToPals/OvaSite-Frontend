@@ -9,7 +9,7 @@ const Hero = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Discover Oversite: 
         <br className="hidden lg:inline-block" /> Your all-in-one platform for monitoring, evaluation, and data collection
       </h1>
-      <p className="mb-8 leading-relaxed">Oversite empowers you to effortlessly gather, analyze, and act upon essential information. With a user-friendly interface and powerful tools, Oversite transforms data into actionable intelligence, helping you make informed decisions that drive progress. Step into a new era of efficiency and understanding with Oversite – where monitoring meets innovation."</p>
+      <p className="mb-8 leading-relaxed">Oversite empowers you to effortlessly gather, analyze, and act upon essential information. With a user-friendly interface and powerful tools, Oversite transforms data into actionable intelligence, helping you make informed decisions that drive progress. Step into a new era of efficiency and understanding with Oversite – where monitoring meets innovation.</p>
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button>
         <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Get started</button>
