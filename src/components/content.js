@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const Content = React.memo (() => {
+const Content = () => {
   return (
     <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
