@@ -53,7 +53,7 @@ const Content = () => {
   </div>
 </section>
   )
-})
+}
 
 export default Content;
 
