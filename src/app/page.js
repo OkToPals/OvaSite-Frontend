@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <main style={mainStyles}>
       <Hero />
-      <Content />
       < Uses/>
+     
     </main>
   );
 }
