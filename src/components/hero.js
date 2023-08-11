@@ -12,8 +12,8 @@ const Hero = () => {
       </h1>
       <p className="mb-8 leading-relaxed">Oversite simplifies data collection, analysis, and action. With a user-friendly interface and robust tools, it converts data into actionable insights, enabling informed decisions that fuel progress. Step into a future of efficiency and clarity with Oversite – where monitoring embraces innovation</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more</button>
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Get started</button>
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get started</button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Learn more</button>
       </div>
     </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
