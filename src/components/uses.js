@@ -20,25 +20,25 @@ const Uses = () => {
       <nav class="flex flex-wrap list-none -mb-1">
        <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800">The Government</a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800">Students</a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800"></a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800">NGOs</a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800">Research institutions and individual researchers</a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800"></a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800">Customer-centric organization</a>
-        </li>
+        </li><br/>
         <li class="lg:w-1/3 mb-1 w-1/2">
           <a class="text-gray-600 hover:text-gray-800"></a>
         </li>
