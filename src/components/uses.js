@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const uses_cases = () => {
+const Uses = () => {
   return (
     <section class="text-gray-600 body-font">
   <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
@@ -49,7 +49,7 @@ const uses_cases = () => {
   )
 }
 
-export default uses_cases;
+export default Uses;
 
 Content.PropTypes = {
     imageSrc: PropTypes.string.isRequired,
