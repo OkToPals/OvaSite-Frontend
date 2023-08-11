@@ -6,7 +6,7 @@ const Uses = () => {
   return (
     <section class="text-gray-600 body-font">
   <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
-    <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
+    <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-[#001233]">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Empowering Change Across Sectors</h1>
       <p class="leading-relaxed text-base">Oversite empowers various sectors—Government, NGOs, researchers, individuals, students, and customer-centric organizations—enhancing transparency, streamlining missions, and fostering growth through valuable data insights. Adaptability underscores its commitment to driving positive change</p>
       <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
@@ -51,13 +51,13 @@ const Uses = () => {
 
 export default Uses;
 
-Uses.PropTypes = {
-    imageSrc: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    buttonText1: PropTypes.string.isRequired,
-    buttonText2: PropTypes.string.isRequired,
+// Uses.PropTypes = {
+//     imageSrc: PropTypes.string.isRequired,
+//     title: PropTypes.string.isRequired,
+//     description: PropTypes.string.isRequired,
+//     buttonText1: PropTypes.string.isRequired,
+//     buttonText2: PropTypes.string.isRequired,
 
-};
+// };
  
 

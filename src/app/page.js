@@ -5,7 +5,7 @@ import Uses from '@/components/uses';
 
 export default function Home() {
   const mainStyles = {
-    background: 'radial-gradient(circle, #a6a6a6, #ffffff)',
+    background: 'Beige-[#DDD0C8]',
     minHeight: '50vh', // Set a minimum height to fill the viewport
     padding: '1rem', // Add padding to the main content using a responsive unit
   };
