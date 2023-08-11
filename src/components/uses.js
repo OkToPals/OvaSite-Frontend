@@ -51,7 +51,7 @@ const Uses = () => {
 
 export default Uses;
 
-Content.PropTypes = {
+Uses.PropTypes = {
     imageSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
