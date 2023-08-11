@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
     </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 border-[#001233] border width-7px">
-        <img className="object-cover object-center rounded " alt="hero" src="/img.png" />
+        <img className="object-cover object-center rounded" alt="hero" src="/img.png" />
       </div>
   </div>
 </section>
