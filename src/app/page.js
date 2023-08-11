@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Hero from '@/components/hero';
 import Content from '@/components/content';
-import uses_cases from '@/components/Uses_cases';
+import Uses from '@/components/uses';
 // import Cta from '@/components/cta';
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
     <main style={mainStyles}>
       <Hero />
       <Content />
-      < uses_cases/>
+      < Uses/>
     </main>
   );
 }
