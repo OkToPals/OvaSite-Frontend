@@ -2,11 +2,10 @@ import Image from 'next/image';
 import Hero from '@/components/hero';
 import Content from '@/components/content';
 import Uses from '@/components/uses';
-// import Cta from '@/components/cta';
 
 export default function Home() {
   const mainStyles = {
-    background: '(beige, #CAC0D5)',
+    background: 'radial-gradient(circle, #a6a6a6, #ffffff)',
     minHeight: '50vh', // Set a minimum height to fill the viewport
     padding: '1rem', // Add padding to the main content using a responsive unit
   };
@@ -14,8 +13,8 @@ export default function Home() {
   return (
     <main style={mainStyles}>
       <Hero />
-    <Content/>
-      < Uses/>
+      <Content />
+      <Uses />
     </main>
   );
 }
