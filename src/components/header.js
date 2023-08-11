@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
@@ -8,22 +8,23 @@ const Header = () => {
       {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> */}
-      <span className="ml-3 text-white">OvaSite</span>
+      <span className="ml-3 text-white text-2xl">OvaSite</span>
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
       <a className="mr-5 hover:text-white cursor-pointer">Home</a>
+      <a className="mr-5 hover:text-white cursor-pointer">About</a>
       <a className="mr-5 hover:text-white cursor-pointer">Features</a>
       <a className="mr-5 hover:text-white cursor-pointer">Pricing</a>
       <a className="mr-5 hover:text-white cursor-pointer">Sign In</a>
     </nav>
-    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign Up
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+    <button className="inline-flex items-center bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-400 rounded text-white mt-4 md:mt-0">Sign Up
+      {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
+      </svg>*/}
     </button>
   </div>
 </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -10,7 +10,9 @@ const Hero = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium" style={{ color: '#001233' }}>Discover Oversite: 
         <br className="hidden lg:inline-block" /> Your all-in-one platform for data collection,monitoring,and evaluation. 
       </h1>
-      <p className="mb-8 leading-relaxed">Oversite simplifies data collection, analysis, and action. With a user-friendly interface and robust tools, it converts data into actionable insights, enabling informed decisions that fuel progress. Step into a future of efficiency and clarity with Oversite – where monitoring embraces innovation</p>
+      <p className="mb-8 leading-relaxed">Oversite simplifies data collection, analysis, and action. With a user-friendly interface and robust tools,
+       it converts data into actionable insights, 
+       enabling informed decisions that fuel progress. Step into a future of efficiency and clarity with Oversite – where monitoring embraces innovation</p>
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get started</button>
         <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Learn more</button>
