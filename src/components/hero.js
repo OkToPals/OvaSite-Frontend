@@ -19,8 +19,8 @@ const Hero = () => {
         <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Learn more</button>
       </div>
     </div>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img className="object-cover object-center rounded" alt="hero" src="/img.png" />
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 border-[#001233] border width-7px">
+        <img className="object-cover object-center rounded " alt="hero" src="/img.png" />
       </div>
   </div>
 </section>
