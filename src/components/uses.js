@@ -18,12 +18,29 @@ const Uses = () => {
     <div class="flex flex-col md:w-1/2 md:pl-12">
       <h2 class="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">Used By</h2>
       <nav class="flex flex-wrap list-none -mb-1">
+       <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800">The Government</a>
+        </li>
         <li class="lg:w-1/3 mb-1 w-1/2">
-          <a class="text-gray-600 hover:text-gray-800">The Government</a><br/>
-           <a class="text-gray-600 hover:text-gray-800">NGOs</a><br/>
-          <a class="text-gray-600 hover:text-gray-800">Research institutions and individual researchers</a><br/>
-          <a class="text-gray-600 hover:text-gray-800">Students</a><br/>
-         <a class="text-gray-600 hover:text-gray-800">Customer-centric organization</a>
+          <a class="text-gray-600 hover:text-gray-800">Students</a>
+        </li>
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800"></a>
+        </li>
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800">NGOs</a>
+        </li>
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800">Research institutions and individual researchers</a>
+        </li>
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800"></a>
+        </li>
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800">Customer-centric organization</a>
+        </li>
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="text-gray-600 hover:text-gray-800"></a>
         </li>
       </nav>
     </div>
