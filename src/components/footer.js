@@ -9,11 +9,7 @@ const Footer = () => {
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> */}
       <span className="ml-3 text-[#FF595A] text-xl font-bold">OvaSite</span>
-      </svg> */}
-      <span className="ml-3 text-[#FF595A] text-xl font-bold">OvaSite</span>
     </a>
-    <p className="text-sm text-[#CAC0B3] cursor-pointer sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-bold">© 2023 Oktopals LLC 
-      {/* <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a> */}
     <p className="text-sm text-[#CAC0B3] cursor-pointer sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-bold">© 2023 Oktopals LLC 
       {/* <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a> */}
     </p>
