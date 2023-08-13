@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 
 const Content = () => {
+const Content = () => {
   return (
   <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
@@ -35,6 +36,7 @@ const Content = () => {
   </div>
 </section>
   )
+}
 }
 
 export default Content;
