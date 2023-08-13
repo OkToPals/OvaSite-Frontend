@@ -1,9 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import Headerimage from '@components/headerimage.jpg'
+// import Headerimage from '@components/headerimage.jpg'
 
 const Hero = () => {
   return (
+<section className= "text-gray-600 body-font"  >
+
+<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 <section className= "text-gray-600 body-font"  >
 
 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -22,12 +26,22 @@ const Hero = () => {
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 border-[#001233] border width-7px">
         <img className="object-cover object-center rounded" alt="hero" src="/img.png" />
       </div>
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 border-[#001233] border width-7px">
+        <img className="object-cover object-center rounded" alt="hero" src="/img.png" />
+      </div>
   </div>
 </section>
   )
 }
 export default Hero;
 
+// Hero.propTypes = {
+//     imageSrc: PropTypes.string.isRequired,
+//     title: PropTypes.string.isRequired,
+//     description: PropTypes.string.isRequired,
+//     buttonText1: PropTypes.string.isRequired,
+//     buttonText2: PropTypes.string.isRequired,
+// };
 // Hero.propTypes = {
 //     imageSrc: PropTypes.string.isRequired,
 //     title: PropTypes.string.isRequired,
