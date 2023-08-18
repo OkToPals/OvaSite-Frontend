@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function Signup() {
+export default function SignUp() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font pt-16">
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
-        <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 mx-auto mt-10">
+        <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 mx-auto ">
           <h1 className="title-font font-medium text-3xl text-[#001233] mb-4">BEGIN YOUR DATA JOURNEY WITH OVASITE</h1>
-          <p className="leading-relaxed text-[#001233]">
+          <p className="leading-relaxed text-[#001233] mb-20">
                 Harness the capabilities of mobile devices and online platforms to swiftly amass, evaluate, 
                 and exchange data securely. OvaSite is your trusted solution, offering intricate skip logic, 
                 real-time GPS tracking, and seamless image uploads. Seamlessly gather, analyze, and securely
