@@ -11,7 +11,7 @@ export default function SignUp() {
                 and exchange data securely. OvaSite is your trusted solution, offering intricate skip logic, 
                 real-time GPS tracking, and seamless image uploads. Seamlessly gather, analyze, and securely
                 share data, tailored precisely to your requirements. Initiate a seamless data collection journey 
-                with OvaSite, seamlessly accessible via web and mobile interfaces. Whether you're seeking complex 
+                with OvaSite, seamlessly accessible via web and mobile interfaces. Whether you are seeking complex 
                 skip logic, instant GPS tracking, or effortless image uploads, OvaSite has you covered. Count on OvaSite to be 
                 your steadfast companion, simplifying the process of data collection and analysis while ensuring utmost security.
         </p>
