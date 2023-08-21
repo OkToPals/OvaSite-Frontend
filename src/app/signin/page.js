@@ -32,7 +32,7 @@ export default function SignIn() {
 
           <button className="text-white bg-[#001233] border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg">Sign In</button>
 
-          <p className="text-gray-600 mt-3 text-center">Don't have an account? <a href="/signup" className="text-[#001233] underline">Create Account.</a></p>
+          <p className="text-gray-600 mt-3 text-center">Do not have an account? <a href="/signup" className="text-[#001233] underline">Create Account.</a></p>
         </div>
       </div>
     </section>
