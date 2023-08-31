@@ -1,50 +1,112 @@
 import React from 'react';
+import Link from 'next/link';
 
-export default function SignUp() {
+
+export default function Example() {
   return (
-    <section className="text-gray-600 body-font pt-16">
-      <div className="container px-5 py-24 mx-auto ">
-      <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 mx-auto text-center">
-  <h1 className="title-font font-medium text-3xl text-[#001233] mb-4">BEGIN YOUR DATA JOURNEY WITH OVASITE</h1>
-  <p className="leading-relaxed text-[#fe5000] mb-20">
-    Fill the form below to create an account with us
-  </p>
-</div>
-<div className="flex justify-center">
-  <div className="lg:w-2/6 md:w-1/2 bg-[#f0d3b2] rounded-lg p-8 w-full mt-10 md:mt-0 mx-auto">
-    <h2 className="text-[#001233] text-lg font-medium title-font mb-5 text-center">Create An Account</h2>
+    <>
 
-          <div className="relative mb-4 animate__animated animate__fadeIn">
-            <label htmlFor="username" className="leading-7 text-sm text-[#001233]">Username</label>
-            <input type="text" id="username" name="username" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 transition-colors duration-200 ease-in-out" />
+      <div className="flex min-h-full flex-1">
+        <div className="flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
+          <div className="mx-auto w-full max-w-sm lg:w-96">
+            <div>
+              {/* <img
+                className="h-10 w-auto"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                alt="Your Company"
+              /> */}
+              <h1 className="title-font font-medium text-3xl text-[#001233] mb-4 mt-10">Begin Your Data Journey With Ovasite</h1>
+            </div>
+
+            <div className="mt-10">
+              <div>
+                <form action="email" method="POST" className="space-y-6">
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium leading-6 text-[#001233]">
+                    <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                      Email address
+                    </span> 
+                      
+                    </label>
+                    <div className="mt-2">
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autoComplete="email"
+                        required
+                        className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-[#001233] focus:ring-[#001233] block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com"
+  
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label htmlFor="password" className="block text-sm font-medium leading-6 text-[#001233]">
+
+                    <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                      Password
+                    </span>  
+                    </label>
+                    <div className="mt-2">
+                      <input
+                        id="password"
+                        name="password"
+                        type="{showPassword ? 'text' : 'password'}"
+                        autoComplete="current-password"
+                        required
+                        className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-[#001233] focus:ring-[#001233] block w-full rounded-md sm:text-sm focus:ring-1" placeholder="password"
+  
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <button
+                      type="submit"
+                      className="flex w-full justify-center rounded-md bg-[#001233] px-3 py-1.5 text-sm font-bold leading-6 text-[#CAC0B3] shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#001233]"
+                    >
+                      Sign Up
+                    </button>
+                    <p className="text-center mt-6 text-sm leading-6 text-[#001233]">
+                      By signing up, you are indicating that you have read and agreed to our 
+                      <Link href="/terms" className="font-bold text-teal-500 hover:text-[#001233]">
+                        <span bg-white px-6 text-gray-900> Terms and Conditions.</span>
+                      </Link>
+                    </p>                  
+                  </div>
+                </form>
+              </div>
+
+              <div className="mt-10">
+                <div className="relative">
+                  <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                    <div className="w-full border-t border-gray-200" />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-4">
+
+                <p className="text-[#001233] text-sm mt-3 text-center">
+                  Already have an account?{' '} 
+                <Link href="/signin" className="font-bold text-teal-500 hover:text-[#001233]">
+                  Sign In.
+                </Link>
+                </p>
+
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div className="relative mb-4 animate__animated animate__fadeIn">
-            <label htmlFor="full-name" className="leading-7 text-sm text-[#001233]">Full Name</label>
-            <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-
-          <div className="relative mb-4 animate__animated animate__fadeIn">
-            <label htmlFor="email" className="leading-7 text-sm text-[#001233]">Email</label>
-            <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-
-          <div className="relative mb-4 animate__animated animate__fadeIn">
-            <label htmlFor="password" className="leading-7 text-sm text-[#001233]">Password</label>
-            <input type="password" id="password" name="password" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-
-          <div className="relative mb-4 animate__animated animate__fadeIn">
-            <label htmlFor="confirm-password" className="leading-7 text-sm text-[#001233]">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirm-password" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-
-          <button className="text-white bg-[#001233] border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg">Create Account</button>
-
-          <p className="text-gray-600 mt-3 text-center">Already have an account? <a href="/signin" className="text-[#001233] underline">Sign in.</a></p>
+        </div>
+        <div className="relative hidden w-0 flex-1 lg:block">
+          <img
+            className="absolute inset-0 h-full w-full object-cover rounded-md ps-8"
+            src="https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80"
+            alt=""
+          />
         </div>
       </div>
-      </div>
-    </section>
-  );
+    </>
+  )
 }
