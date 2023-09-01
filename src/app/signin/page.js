@@ -1,7 +1,10 @@
 import React from 'react';
+import Header from '../../components/header'
 
 export default function SignIn() {
   return (
+    <>
+    {/* <Header/> */}
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 mx-auto mt-10">
@@ -31,5 +34,6 @@ export default function SignIn() {
         </div>
       </div>
     </section>
+    </>
   );
 }

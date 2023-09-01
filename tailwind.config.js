@@ -22,6 +22,9 @@ module.exports = {
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
       },
+      screens: {
+        'mini': '450px',
+      }
     },
   },
   plugins: [],

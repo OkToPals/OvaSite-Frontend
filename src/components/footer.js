@@ -5,13 +5,11 @@ const Footer = () => {
 <footer className="body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" style={{ backgroundColor: '#001233', borderRadius: '2px', padding: '20px' }}>
     <a className="flex title-font font-medium items-center md:justify-start justify-center">
-      {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg> */}
+     
       <span className="ml-3 text-[#FF595A] text-xl font-bold">OvaSite</span>
     </a>
     <p className="text-sm text-[#CAC0B3] cursor-pointer sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-bold">© 2023 Oktopals LLC 
-      {/* <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a> */}
+      
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a className="text-[#CAC0B3] cursor-pointer font-bold">

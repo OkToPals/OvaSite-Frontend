@@ -1,0 +1,8 @@
+.transition-max-height {
+    max-height: 0;
+  }
+  
+  .dropdown-content.show {
+    max-height: 200px; /* Adjust this value as needed */
+    transition: max-height 0.3s ease;
+  }

@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Hero from '@/components/hero';
-import Content from '@/components/content';
-import Uses from '@/components/uses';
+import Hero from '../../components/hero'
+import Content from '../../components/content';
+import Uses from '../../components/uses';
 
 export default function Home() {
   const mainStyles = {
