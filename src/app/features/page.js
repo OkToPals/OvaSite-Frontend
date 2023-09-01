@@ -1,9 +1,23 @@
 import React from 'react';
 
 export default function features() {
+    const sectionStyles = {
+    color: '#374151',
+    fontFamily: 'sans-serif',
+    width: '98%',
+    backgroundColor: '#fff', 
+  
+  };
+
+  const containerStyles = {
+    paddingBottom: '50px',
+    margin: '0 auto',
+    maxWidth: '100%',
+    height: '100%'
+  };
     return (
-        <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+      <section style={sectionStyles}>
+      <div style={containerStyles}>
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Explore our features</h1>
       <div class="flex mt-6 justify-center">

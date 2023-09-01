@@ -1,9 +1,26 @@
 import React from 'react';
 
 export default function About() {
+  const sectionStyles = {
+    color: '#374151', 
+    fontFamily: 'sans-serif', 
+    width: '100%', 
+    backgroundColor: '#fff', 
+    minHeight: '100vh', 
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+  };
+
+  const containerStyles = {
+    padding: '20px', 
+    margin: '0 auto', 
+    maxWidth: '100%', 
+  };
   return (
-    <section className="text-gray-600 body-font">
-    <div className="container px-5 py-10 mx-auto flex flex-wrap items-center">
+    <section style={sectionStyles}>
+    <div style={containerStyles}>
 
 <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 mx-auto mt-40 mb-10">
   <h1 className="title-font font-medium text-3xl text-[#001233] mb-4"> About Us: OvaSite - Your Partner in Smart Decision-Making</h1>
