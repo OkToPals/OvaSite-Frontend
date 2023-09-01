@@ -12,13 +12,10 @@ const Projects = () => {
   const array_int = [...Array(32).keys()].map(i => i + 1);
   const tabActive = 'bg-[#FF595A] text-[#001233] font-bold'
   const tabInactive = 'bg-gray-200 font-bold'
-
-
   
   const handleTabChange = (index) => {
     setActiveTab(index);
   };
-
  
   // handlle right ellipses 
   const rightEllipses = () => {(
