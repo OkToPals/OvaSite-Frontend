@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/styles.css'
 import PropTypes from 'prop-types';
-// import Headerimage from '@components/headerimage.jpg'
+
 
 const Hero = () => {
   return (
