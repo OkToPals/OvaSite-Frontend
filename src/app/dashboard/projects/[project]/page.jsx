@@ -29,7 +29,7 @@ const Project = () => {
           className={`${tab_style} ${activeTab === 1 ? `${tabActive}` : `${tabInactive}`}`}
           onClick={() => handleTabChange(1)}
           aria-controls="forms-tab"
-          // aria-selected={activeTab === 1 ? 'true' : 'false'}
+          aria-selected={activeTab === 1 ? 'true' : 'false'}
           role="tab"
         >
           Forms
@@ -40,7 +40,7 @@ const Project = () => {
           className={`${tab_style} ${activeTab === 2 ? `${tabActive}` : `${tabInactive}`}`}
           onClick={() => handleTabChange(2)}
           aria-controls="submissions-tab"
-          // aria-selected={activeTab === 2 ? 'true' : 'false'}
+          aria-selected={activeTab === 2 ? 'true' : 'false'}
           role="tab"
         > Submissions
         </button>
@@ -50,7 +50,7 @@ const Project = () => {
           className={`${tab_style} ${activeTab === 3 ? `${tabActive}` : `${tabInactive}`}`}
           onClick={() => handleTabChange(3)}
           aria-controls="reports-tab"
-          // aria-selected={activeTab === 3 ? 'true' : 'false'}
+          aria-selected={activeTab === 3 ? 'true' : 'false'}
           role="tab"
         >
         Reports
@@ -61,18 +61,18 @@ const Project = () => {
           className={`${tab_style} ${activeTab === 4 ? `${tabActive}` : `${tabInactive}`}`}
           onClick={() => handleTabChange(4)}
           aria-controls="settings-tab"
-          // aria-selected={activeTab === 4 ? 'true' : 'false'}
+          aria-selected={activeTab === 4 ? 'true' : 'false'}
           role="tab"
         >
           Settings
         </button>
       </div>  
           {
-            tabActive == 1 ?  <Forms/> 
-            : tabActive == 2 ? <Submissions/>
-            : tabActive == 3 ? <Report/> 
-            : tabActive == 4 ? <Settings/> 
-            : <Settings/>
+            activeTab == 1 ?  <Forms activeTab={activeTab}/> 
+            : activeTab == 2 ? <Submissions activeTab={activeTab}/>
+            : activeTab == 3 ? <Report activeTab={activeTab}/> 
+            : activeTab == 4 ? <Settings activeTab={activeTab}/> 
+            : null
           }
     </section>
   )
