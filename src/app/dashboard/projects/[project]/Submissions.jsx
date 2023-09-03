@@ -7,7 +7,7 @@ const Submissions = ({activeTab}) => {
       border-[#ddd] transition-all duration-300 ease-in-out my-8 `}
       id="in-progress-project-tab"
       role="tabpanel"
-      tabIndex={activeTab === 0 ? 0 : -1}>Submissions</div>
+      tabIndex={activeTab === 2 ? 2 : -1}>Submissions</div>
   )
 }
 

@@ -7,7 +7,7 @@ const Settings = ({activeTab}) => {
   border-[#ddd] transition-all duration-300 ease-in-out my-8 `}
   id="in-progress-project-tab"
   role="tabpanel"
-  tabIndex={activeTab === 0 ? 0 : -1}>Settings</div>
+  tabIndex={activeTab === 4 ? 4 : -1}>Settings</div>
   )
 }
 
