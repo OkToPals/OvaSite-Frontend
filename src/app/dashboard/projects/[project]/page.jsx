@@ -1,10 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import Form from './Forms'
+import Forms from './Forms'
 import Report from './Report'
 import Settings from './Setings'
 import Submissions from './Submissions'
+// import {faed} from '@fortawesome/free-solid-svg-icons'
 
 const Project = () => {
 
@@ -68,7 +69,7 @@ const Project = () => {
         </button>
       </div>  
           {
-            activeTab == 1 ?  <Form activeTab={activeTab}/> 
+            activeTab == 1 ?  <Forms activeTab={activeTab}/> 
             : activeTab == 2 ? <Submissions activeTab={activeTab}/>
             : activeTab == 3 ? <Report activeTab={activeTab}/> 
             : activeTab == 4 ? <Settings activeTab={activeTab}/> 

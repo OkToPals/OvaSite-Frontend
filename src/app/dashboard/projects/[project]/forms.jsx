@@ -1,6 +1,6 @@
 'use client'
 
-const Form = ({activeTab}) => {
+const Forms = ({activeTab}) => {
   return (
     <div className={`w-[90%] min-h-[70vh] mx-auto p-6 rounded-md shadow border 
         flex flex-row flex-wrap gap-4  justify-center lg:justify-start
@@ -10,4 +10,4 @@ const Form = ({activeTab}) => {
       tabIndex={activeTab === 1 ? 1 : -1}>Form
     </div>
   )}
-export default Form;
+export default Forms;
