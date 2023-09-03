@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import Forms from './Forms'
+import Forms from './forms'
 import Report from './Report'
 import Settings from './Setings'
 import Submissions from './Submissions'
