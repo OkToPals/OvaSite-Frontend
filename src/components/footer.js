@@ -8,16 +8,16 @@ const Footer = () => {
     borderRadius: '2px',
     padding: '20px',
     display: 'flex',
-    alignItems: 'center',
-    flexDirection: 'column',
-    textAlign: 'center',
+    alignItems: 'start',
+    flexDirection: 'row',
+    textAlign: 'left',   
     width: '100%',
   };
 
   const aStyles = {
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'start',
+    justifyContent: 'start',
     color: '#fff', 
     fontFamily: 'sans-serif', 
     textDecoration: 'none',
@@ -30,7 +30,7 @@ const Footer = () => {
       <a style={aStyles}>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg> *
+      </svg> 
       <span className="ml-3 text-[#FF595A] text-xl font-bold">OvaSite</span>
     </a>
     <p className="text-sm text-[#CAC0B3] cursor-pointer sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-bold">

@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import '../styles/styles.css'
 
 const Content = () => {
   return (
-  <section className="text-[#001233] body-font">
+  <section className="text-[#001233] body-font" >
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#001233] font-bold">Features that Transform, Benefits that Propel.</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Experience revolutionary features for gathering, analyzing, and utilizing data. From adaptable forms to real-time insights, OverSite empowers you. Uncover actionable intelligence, streamline collaboration, and drive progress with your most valuable asset—data. Elevate your success with Oversite</p></div>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Experience revolutionary features for gathering, analyzing, and utilizing data. From adaptable forms to real-time insights, OvaSite empowers you. Uncover actionable intelligence, streamline collaboration, and drive progress with your most valuable asset—data. Elevate your success with OvaSite</p></div>
     <div className="flex flex-wrap">
       <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-[#001233] border-opacity-60">
         <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 font-bold">Data Collection and Storage</h2>

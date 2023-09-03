@@ -15,6 +15,7 @@ export default function Example() {
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt="Your Company"
               /> */}
+              <br/>
               <h1 className="title-font font-medium text-3xl text-[#001233] mb-4 mt-10">Begin Your Data Journey With Ovasite</h1>
             </div>
 
