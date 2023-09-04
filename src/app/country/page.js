@@ -55,7 +55,7 @@ export default function Country() {
                     <div>
                         <div>
                         <label htmlFor="password" className="block text-sm font-medium leading-6 text-[#001233]">
-                        What's your organization name?
+                        What is your organization name?
                       </label>
                       <div className="mt-2">
                         <input

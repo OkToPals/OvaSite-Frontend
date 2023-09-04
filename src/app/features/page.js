@@ -11,18 +11,18 @@ export default function features() {
         <ul>
           <li>Quickly build questionnaires with our intuitive tools</li>
           <li>Gather and keep track of different types of information about your project or program.</li>
-          <li>Our system is flexible enough to handle numbers-based data (like counts or measurements) as well as descriptive data (like people's opinions or explanations).</li>
+          <li>Our system is flexible enough to handle numbers-based data (like counts or measurements) as well as descriptive data.</li>
           <li>Get data from different places, like surveys, one-on-one discussions, group discussions, and official documents.</li>
         </ul>
        </div>
        <div id='divsnd'>
-       <img src='/survey.png'/>
+       <img src='/survey.png' alt='desc'/>
        </div>
         </div>
 
         <div id='div1'>
         <div id='divsnd'>
-       <img src='/devices.png'/>
+       <img src='/devices.png' alt='desc'/>
        </div>
        <div>
         <h1 style={{fontWeight:'bolder',fontSize:25,}}>Real-time Data Entry, updating and analysis</h1>
@@ -47,7 +47,7 @@ export default function features() {
         </ul>
        </div>
        <div id='divsnd'>
-       <img src='/indicators.png'/>
+       <img src='/indicators.png' alt='desc'/>
        </div>
         </div> 
          <div id='background'> 
