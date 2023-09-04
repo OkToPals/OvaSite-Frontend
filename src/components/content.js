@@ -2,46 +2,146 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/styles.css'
 
-const Content = () => {
+export const Content = () => {
   return (
-  <section className="text-[#001233] body-font" >
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#001233] font-bold">Features that Transform, Benefits that Propel.</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Experience revolutionary features for gathering, analyzing, and utilizing data. From adaptable forms to real-time insights, OvaSite empowers you. Uncover actionable intelligence, streamline collaboration, and drive progress with your most valuable asset—data. Elevate your success with OvaSite</p></div>
-    <div className="flex flex-wrap">
-      <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-[#001233] border-opacity-60">
-        <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 font-bold">Data Collection and Storage</h2>
-        <p className="leading-relaxed text-base mb-4">Collection and storage of quantitative and qualitative Data from multiple
-         data source while ensuring data security</p>
-       
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div>
+         
+        </div>
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#182642] sm:text-4xl md:mx-auto">
+        Features that Transform, Benefits that Propel.
+        </h2>
+        <p className="text-base text-[#182642] md:text-lg">
+        Experience revolutionary features for gathering, analyzing, and utilizing data. From adaptable forms to real-time insights, OvaSite empowers you. Uncover actionable intelligence, streamline collaboration, and drive progress with your most valuable asset—data. Elevate your success with OvaSite
+        </p>
       </div>
-      <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-[#001233] border-opacity-60">
-        <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 font-bold">Real-time Data Entry and Updating</h2>
-        <p className="leading-relaxed text-base mb-4">OvaSite facilitates real-time data entry and updating to ensure 
-        the most current information is available for analysis</p>
-       
-      </div>
-      <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-[#001233] border-opacity-60">
-        <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 font-bold">Cost-Effective Analysis and Feedback</h2>
-        <p className="leading-relaxed text-base mb-4">After collecting your data, get instant feedback from your analyzed data for informed decision making.</p>
-       
-      </div>
-      <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-[#001233] border-opacity-60">
-        <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2 font-bold">Works Offline</h2>
-        <p className="leading-relaxed text-base mb-4">You can collect data even without an internet connection.
-         Data collected offline, is automatically uploaded once your device is connected to the internet.</p>
-       
+      <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <svg
+                className="w-12 h-12 text-deep-purple-accent-400"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-[#182642]">Data Collection and Storage</h6>
+            <p className="mb-3 text-sm text-[#182642]">
+            Collection and storage of quantitative and qualitative Data from multiple data source while ensuring data security
+            </p>
+          </div>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
+          >
+            Learn more
+          </a>
+        </div>
+        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <svg
+                className="w-12 h-12 text-deep-purple-accent-400"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-[#182642]">Real-time Data Entry and Updating</h6>
+            <p className="mb-3 text-sm text-[#182642]">
+            OvaSite facilitates real-time data entry and updating to ensure the most current information is available for analysis
+            </p>
+          </div>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
+          >
+            Learn more
+          </a>
+        </div>
+        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <svg
+                className="w-12 h-12 text-deep-purple-accent-400"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-[#182642]" >Cost-Effective Analysis and Feedback</h6>
+            <p className="mb-3 text-sm text-[#182642]">
+            After collecting your data, get instant feedback from your analyzed data for informed decision making.
+            </p>
+          </div>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
+          >
+            Learn more
+          </a>
+        </div>
+        <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+          <div>
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+              <svg
+                className="w-12 h-12 text-deep-purple-accent-400"
+                stroke="currentColor"
+                viewBox="0 0 52 52"
+              >
+                <polygon
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"
+                />
+              </svg>
+            </div>
+            <h6 className="mb-2 font-semibold leading-5 text-[#182642]">Works Offline</h6>
+            <p className="mb-3 text-sm text-[#182642]">
+            You can collect data even without an internet connection. Data collected offline, is automatically uploaded once your device is connected to the internet.
+            </p>
+          </div>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
+          >
+            Learn more
+          </a>
+        </div>
       </div>
     </div>
-    <button className="flex mx-auto mt-16 text-white bg-[#001233] border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg font-bold">Get Started</button>
-  </div>
-</section>
-  )
-}
-
+  );
+};
 export default Content;
-
 Content.PropTypes = {
     imageSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,

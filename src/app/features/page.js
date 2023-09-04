@@ -51,8 +51,9 @@ export default function features() {
        </div>
         </div> 
          <div id='background'> 
- <h1 style={{fontWeight:'bolder',fontSize:25,textAlign:'center',}} id='hstyle'> And that is not all!</h1>
+ <div style={{marginBottom:40,}}><h1 style={{fontWeight:'bolder',fontSize:25,textAlign:'center',}} id='hstyle'> And that is not all!</h1>
     <p style={{fontWeight:'bolder',textAlign:'center',}} id='hstyle'>Our system boosts of extra tools to help you find solution to your data Collection needs</p>
+   </div>
     <div id='div2'>
        <div>
         <h2 style={{fontWeight:'bolder',}}>Data Security and Privacy</h2>

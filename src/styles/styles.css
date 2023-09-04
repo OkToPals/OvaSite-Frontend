@@ -91,6 +91,7 @@
   width: 25%;
   height: 350px;
   font-size: 14.5px;
+  border-left:1px solid #001233;
 }
 #hstyle{
   color: #052053;
@@ -127,4 +128,31 @@ ul li{
 }
 #uses{
   background-color: whitesmoke;
+}
+#video{
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#upper{
+  position: absolute;
+  top: 14%;
+  color: white;
+  z-index: 1;
+  background-color: #151a2169;
+  height: 620px;
+  width: 97.5%;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+#smaller{
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+#wider{
+  display: none;
+}
+#smaller{
+  display: block;
+}
 }
