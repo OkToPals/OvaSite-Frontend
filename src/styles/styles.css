@@ -156,3 +156,9 @@ ul li{
   display: block;
 }
 }
+
+#footz{
+  background-image: url(/info.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
