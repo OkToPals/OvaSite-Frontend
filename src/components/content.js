@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/styles.css'
-
+import Link from 'next/link';
 export const Content = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -39,13 +39,13 @@ export const Content = () => {
             Collection and storage of quantitative and qualitative Data from multiple data source while ensuring data security
             </p>
           </div>
-          <a
-            href="/"
+          <Link
+            href="/features"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
@@ -69,13 +69,13 @@ export const Content = () => {
             OvaSite facilitates real-time data entry and updating to ensure the most current information is available for analysis
             </p>
           </div>
-          <a
-            href="/"
+          <Link
+            href="/features"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
@@ -99,13 +99,13 @@ export const Content = () => {
             After collecting your data, get instant feedback from your analyzed data for informed decision making.
             </p>
           </div>
-          <a
-            href="/"
+          <Link
+            href="/features"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
@@ -129,13 +129,13 @@ export const Content = () => {
             You can collect data even without an internet connection. Data collected offline, is automatically uploaded once your device is connected to the internet.
             </p>
           </div>
-          <a
-            href="/"
+          <Link
+            href="/features"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-[#182642] hover:text-[#fe5000]"
           >
             Learn more
-          </a>
+          </Link>
         </div>
       </div>
     </div>

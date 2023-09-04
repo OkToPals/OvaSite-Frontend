@@ -71,7 +71,7 @@ export default function features() {
        </div>
        <div>
         <h2 style={{fontWeight:'bolder',}}>Data Export and Import</h2>
-     <p>TExport data in various formats (e.g., CSV, Excel) and import data from external sources to your project</p>
+     <p>Export data in various formats (e.g., CSV, Excel) and import data from external sources to your project</p>
        </div>
         </div></div> 
       </div>
