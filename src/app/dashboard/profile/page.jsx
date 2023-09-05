@@ -62,24 +62,24 @@ const Profile = () => {
         {
           showContent == 1 ? 
             <BasicInfo isBasicInfoActive={true} 
-              handleCancelBtn={() => setContent(0)}
+              handleCancelBtn={() => setContent(1)}
             />
           : showContent == 2 ? 
             <ChangePassword isChangePasswordActive={true}
-              handleCancelBtn={() => setContent(0)}
+              handleCancelBtn={() => setContent(1)}
              />
           : showContent == 3 ? 
             <ChangEmail isChangeEmailActive={true} 
-              handleCancelBtn={() => setContent(0)}
+              handleCancelBtn={() => setContent(1)}
             />
           : showContent == 4 ? ""
           : showContent == 5 ? 
             <ExportData isExportDataActive={true} 
-              handleCancelBtn={() => setContent(0)}
+              handleCancelBtn={() => setContent(1)}
             />
           : showContent == 6 ? 
             <CloseAccount isCloseAccountActive={true} 
-              handleCancelBtn={() => setContent(0)}
+              handleCancelBtn={() => setContent(1)}
             />
           : 
           ""
