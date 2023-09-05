@@ -2,7 +2,7 @@
 
 const Dashboard = () => {
   return (
-    <section>
+    <section className=" min-h-[70vh]">
         
     </section>
   )
