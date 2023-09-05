@@ -12,7 +12,7 @@ export const Hero = () => {
       <source src='/video.mp4' />
     </video>
     <div id='upper'>
-  <h1 style={{fontWeight:'bolder',fontSize:35,}}>Discover OverSite:</h1>  
+  <h1 style={{fontWeight:'bolder',fontSize:35,}}>Discover OvaSite:</h1>  
 <h2 style={{fontWeight:'bolder',fontSize:25,}}>Your all-in-one platform <br/>for data collection,monitoring and evaluation.</h2><br/>
 <p>OvaSite simplifies data collection, analysis and action. With a user-friendly interface and robust tools, <br/>it converts data into actionable insights, enabling informed decisions that fuel progress. <br/>Step into a future of efficiency and clarity with OvaSite – where monitoring embraces innovation.
 </p>    
