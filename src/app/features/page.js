@@ -1,152 +1,80 @@
 import React from 'react';
-
+import TopHeader from '@/components/topheader';
+import '@/styles/styles.css';
 export default function features() {
     return (
-        <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="text-center mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Explore our features</h1>
-      <div class="flex mt-6 justify-center">
-        <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-      </div>
-    </div>
-    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
+      <div>
+      <TopHeader />
+      <div id='div1'>
+       <div>
+        <h1 style={{fontWeight:'bolder',fontSize:25,}}> Data Collection and Storage</h1>
+        <ul>
+          <li>Quickly build questionnaires with our intuitive tools</li>
+          <li>Gather and keep track of different types of information about your project or program.</li>
+          <li>Our system is flexible enough to handle numbers-based data (like counts or measurements) as well as descriptive data.</li>
+          <li>Get data from different places, like surveys, one-on-one discussions, group discussions, and official documents.</li>
+        </ul>
+       </div>
+       <div id='divsnd'>
+       <img src='/survey.png' alt='desc'/>
+       </div>
         </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Data Collection and Storage:
-</h2>
-          <p class="leading-relaxed text-base">Our system allow easy collection and storage of both quantitative and qualitative data related to the project or program.
-   It supports various data sources, such as surveys, interviews, focus groups, and administrative records.</p>
-       
+
+        <div id='div1'>
+        <div id='divsnd'>
+       <img src='/devices.png' alt='desc'/>
+       </div>
+       <div>
+        <h1 style={{fontWeight:'bolder',fontSize:25,}}>Real-time Data Entry, updating and analysis</h1>
+        <ul>
+          <li>Our system facilitates real-time data entry and updating to ensure the most current information is available for analysis</li>
+          <li>Data can be collected on any smart device both online and offline</li>
+          <li>Review and validate data in real time</li>
+          <li>Export data in different formats</li>
+          <li>Visualize data with custom maps and reports</li>
+        </ul>
+       </div>
         </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <circle cx="6" cy="6" r="3"></circle>
-            <circle cx="6" cy="18" r="3"></circle>
-            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Real-time Data Entry and Updating:
-</h2>
-          <p class="leading-relaxed text-base">Our system facilitates real-time data entry and updating to ensure the most current information is available for analysis.
+
+        <div id='div1'>
+       <div>
+        <h1 style={{fontWeight:'bolder',fontSize:25,}}> Tracking, Reporting and Visualization</h1>
+        <ul>
+          <li>Use our performance indicators and targets to measure the progress of your project or program.</li>
+          <li>Generate automated reports and visualizations to present data in a clear and understandable format, including graphs, charts, and dashboards..</li>
+          <li>Customize reports based on specific requirements and user roles</li>
+          <li>Integrate with project management and finance systems to avoid duplication of data entry and facilitate seamless information flow</li>
+        </ul>
+       </div>
+       <div id='divsnd'>
+       <img src='/indicators.png' alt='desc'/>
+       </div>
+        </div> 
+         <div id='background'> 
+ <div style={{marginBottom:40,}}><h1 style={{fontWeight:'bolder',fontSize:25,textAlign:'center',}} id='hstyle'> And that is not all!</h1>
+    <p style={{fontWeight:'bolder',textAlign:'center',}} id='hstyle'>Our system boosts of extra tools to help you find solution to your data Collection needs</p>
+   </div>
+    <div id='div2'>
+       <div>
+        <h2 style={{fontWeight:'bolder',}}>Data Security and Privacy</h2>
+      <p> Strong data security measures are in place to protect your sensitive information.
+       and you also have full control of access to your data</p>
+       </div>
+       <div>
+        <h2 style={{fontWeight:'bolder',}}>Data Validation and Quality Assurance</h2>
+        <p>Our system include validation checks to ensure data accuracy and consistency.
 </p>
-        
-        </div>
+       </div>
+       <div>
+        <h2 style={{fontWeight:'bolder',}}>Alerts and Notifications</h2>
+        <p>Receive automated alerts and notifications on progress and activities related to your project</p>
+       </div>
+       <div>
+        <h2 style={{fontWeight:'bolder',}}>Data Export and Import</h2>
+     <p>Export data in various formats (e.g., CSV, Excel) and import data from external sources to your project</p>
+       </div>
+        </div></div> 
       </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3"> Data Validation and Quality Assurance:
-</h2>
-          <p class="leading-relaxed text-base">Incorporation of Validation checks to ensure data accuracy and consistency.
-          as well as Quality assurance measures to identify and rectify data discrepancies or errors.
-</p>
-          
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3"> Reporting and Visualization:
-</h2>
-          <p class="leading-relaxed text-base">Generation of automated reports and visualizations to present data in a clear and understandable format, including graphs, charts, and dashboards.
-</p>
-          
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <circle cx="6" cy="6" r="3"></circle>
-            <circle cx="6" cy="18" r="3"></circle>
-            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Data Security and Privacy</h2>
-          <p class="leading-relaxed text-base">Strong data security measures have been implemented to protect sensitive information.
-</p>
-          
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Integration with Existing Systems</h2>
-          <p class="leading-relaxed text-base">Our M&E system is able to integrate with other relevant systems (e.g., project management, finance) to avoid duplication of data entry and facilitate seamless information flow.
-</p>
-         
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Data Export and Import:
-</h2>
-          <p class="leading-relaxed text-base">Export data in various formats and import data from external sources.</p>
-         
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <circle cx="6" cy="6" r="3"></circle>
-            <circle cx="6" cy="18" r="3"></circle>
-            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Geospatial Mapping</h2>
-          <p class="leading-relaxed text-base">geospatial mapping of project-related data to visualize spatial patterns and disparities.</p>
-          
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Indicator Tracking</h2>
-          <p class="leading-relaxed text-base">Performance indicators and targets to measure the progress of your project or program</p>
-        
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
         );
     }
     

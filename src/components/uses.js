@@ -6,13 +6,13 @@ import Link from 'next/link';
 
 const Uses = () => {
   return (
-    <section className="text-[#001233] body-font">
+    <section className="text-[#001233] body-font" id='uses'>
   <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
     <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-[#001233]">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-[#001233] font-bold">Empowering Change Across Sectors</h1>
       <p className="leading-relaxed text-base">OverSite empowers various sectors—Government, NGOs, researchers, individuals, students, and
        customer-centric organizations—enhancing transparency, streamlining missions, and fostering growth through valuable data insights. Adaptability underscores its commitment to driving positive change</p>
-      <Link href='/about' className="text-[#001233] inline-flex items-center mt-4 font-bold">Learn More
+      <Link href='/features' className="text-[#001233] inline-flex items-center mt-4 font-bold">Learn More
         <svg fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>

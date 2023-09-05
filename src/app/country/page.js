@@ -48,11 +48,17 @@ export default function Location() {
                 <form action='#' method='POST' className='space-y-6'>
                   <div>
                     <div>
+<<<<<<< HEAD
                       <label
                         htmlFor='password'
                         className='block text-sm font-medium leading-6 text-[#001233]'
                       >
                         {"What's your organization name?"}
+=======
+                        <div>
+                        <label htmlFor="password" className="block text-sm font-medium leading-6 text-[#001233]">
+                        What is your organization name?
+>>>>>>> e34ca85685fb2c7dc63c6df98abe26df98f3e861
                       </label>
                       <div className='mt-2'>
                         <input
