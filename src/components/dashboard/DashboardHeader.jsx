@@ -36,12 +36,12 @@ const DashboardHeader = () => {
         ${mobileViewStyle}
         `}
         >
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/home' onClick={toggleMenu}>Home</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/projects' onClick={toggleMenu}>Projects</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/team' onClick={toggleMenu}>Team</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/subscription' onClick={toggleMenu}>Subscription</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/audit' onClick={toggleMenu}>Audit</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/profile' onClick={toggleMenu}>Profile</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/home' >Home</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/projects'>Projects</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/team'>Team</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/subscription' >Subscription</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/audit' >Audit</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/profile's>Profile</Link>
         </nav>
 
         <div 
