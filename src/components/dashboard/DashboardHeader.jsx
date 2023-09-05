@@ -10,7 +10,7 @@ const DashboardHeader = () => {
   const [toggle_menu, set_toggle_menu] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const mobileViewStyle = `flex flex-col top-20 transition-all duration-500 ease-linear ${!toggle_menu ? ' -left-[70%]' : 'left-0 max-w-[500px] h-[100vh] w-[70%] bg-[#FF595A] text-[#001233] py-8 px-4'} `
+  const mobileViewStyle = `flex flex-col top-20 transition-all duration-500 ease-linear h-[100vh] ${!toggle_menu ? ' -left-[70%]' : 'left-0 max-w-[500px] w-[70%] bg-[#FF595A] text-[#001233] py-8 px-4'} `
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -79,7 +79,7 @@ const DashboardHeader = () => {
 
               <div
                 className={`absolute right-0 mt-9 bg-white shadow-md py-2 px-4 rounded transition-all duration-300 ease-in
-                ${isDropdownOpen ? 'opacity-100' : 'opacity-0'}
+                ${isDropdownOpen ? 'opacity-100 z-30' : 'opacity-0 -z-50'}
                 `}
                 role="menu"
                 aria-hidden={!isDropdownOpen}
