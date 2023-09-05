@@ -21,7 +21,7 @@ const DashboardHeader = () => {
       set_toggle_menu(!toggle_menu)
   }
   return (
-    <header className="text-gray-600 body-font fixed w-full z-50 h-20">
+    <header className="text-gray-600 body-font fixed w-full z-10 h-20">
       <div className="container mx-auto bg-[#001233] flex px-4 py-4 flex-row items-center justify-between" 
       >
 
@@ -77,9 +77,10 @@ const DashboardHeader = () => {
                 {isDropdownOpen ? <FontAwesomeIcon icon={faCaretUp} color='#CAC0B3'/> : <FontAwesomeIcon icon={faCaretDown} color='#CAC0B3'/>}
               </button>
 
+              {isDropdownOpen ?
               <div
-                className={`absolute -z-50 right-0 mt-9 bg-white shadow-md py-2 px-4 rounded transition-all duration-300 ease-in
-                ${isDropdownOpen ? 'opacity-100 z-30' : 'opacity-0'}
+                className={`absolute right-0 mt-9 bg-white shadow-md py-2 px-4 rounded transition-all duration-500 ease-in
+                 ${isDropdownOpen ? 'top-0' : '-top-20'} 
                 `}
                 role="menu"
                 aria-hidden={!isDropdownOpen}
@@ -90,7 +91,8 @@ const DashboardHeader = () => {
                 <button className="w-32 flex flex-row items-center bg-[#FF595A] border-0 py-2 px-4 focus:outline-none 
                   hover:bg-[#fe5000] rounded text-[#001233] mt-4 md:mt-0 font-bold">Sign Out
                 </button>    
-              </div>
+              </div> : ""
+            }
             </div>
             
           </div>
