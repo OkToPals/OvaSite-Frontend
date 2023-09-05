@@ -10,8 +10,6 @@ const DashboardHeader = () => {
   const [toggle_menu, set_toggle_menu] = useState(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const mobileViewStyle = `flex flex-col top-20 transition-all duration-500 ease-linear md:h-12 h-[100vh] ${!toggle_menu ? ' -left-[70%]' : 'left-0 max-w-[500px] w-[70%] bg-[#FF595A] text-[#001233] py-8 px-4'} `
-
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   
@@ -31,17 +29,19 @@ const DashboardHeader = () => {
         </a>
        
         {/* navigation links */}
-        <nav className ={`flex flex-col flex-wrap text-base 
-         text-[#CAC0B3] font-bold absolute md:static md:ml-auto md:flex-row md:justify-center md:items-center
-        ${mobileViewStyle}
+        <nav className ={`absolute top-20 max-w-[500px] w-[70%] h-[100vh]  bg-[#FF595A] flex flex-col
+         py-8 px-4  text-base font-bold text-[#CAC0B3] transition-all duration-500 ease-linear 
+         ${!toggle_menu ? ' -left-[70%]' : 'left-0'}
+         md:static md:top-0 md:h-12 md:ml-auto md:flex-row md:justify-center md:items-center
+         md:py-0 md:px-0  md:bg-[#001233] 
         `}
         >
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/home' >Home</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/projects'>Projects</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/team'>Team</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/subscription' >Subscription</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/audit' >Audit</Link>
-          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/profile's>Profile</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/home' onClick={toggleMenu}>Home</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/projects' onClick={toggleMenu}>Projects</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/team' onClick={toggleMenu}>Team</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/subscription' onClick={toggleMenu}>Subscription</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/audit' onClick={toggleMenu}>Audit</Link>
+          <Link className="mb-4 md:mb-0 mr-5 hover:text-white cursor-pointer" href='/dashboard/profile' onClick={toggleMenu}>Profile</Link>
         </nav>
 
         <div 
