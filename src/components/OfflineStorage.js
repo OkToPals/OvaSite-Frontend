@@ -74,17 +74,17 @@ const OfflineStorage = () => {
 
   return (
     <>
-      <div>
-        {networkStatus.online ? (
-          <p className="text-green-500 p-5">online</p>
-        ) : (
-          <p className="text-red-500 p-5">offline</p>
-        )}
-      </div>
       <div className="flex justify-center p-10">
         <div>
-          <div className="">
+          <div className="pt-[50px]">
             <h1 className="font-bold text-2xl">Offline Reports</h1>
+            <div className="flex justify-center">
+              {networkStatus.online ? (
+                <p className="text-green-500 p-5">online</p>
+              ) : (
+                <p className="text-red-500 p-5">offline</p>
+              )}
+            </div>
             <div>
               <div>
                 <input
