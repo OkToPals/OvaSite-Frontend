@@ -79,7 +79,7 @@ const DashboardHeader = () => {
 
               {isDropdownOpen ?
               <div
-                className={`absolute right-0 mt-9 bg-white shadow-md py-2 px-4 rounded transition-all duration-500 ease-in
+                className={`absolute right-0 mt-9 bg-white shadow-md py-2 px-4 rounded transition-all duration-500 ease-linear
                  ${isDropdownOpen ? 'top-0' : '-top-20'} 
                 `}
                 role="menu"
