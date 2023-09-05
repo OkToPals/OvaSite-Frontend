@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 
-export default function Example() {
+export default function Signup() {
   return (
     <>
 
