@@ -19,7 +19,7 @@ const DashboardHeader = () => {
       set_toggle_menu(!toggle_menu)
   }
   return (
-    <header className="text-gray-600 body-font fixed w-full z-10 h-20">
+    <header className="fixed top-0 left-0 text-gray-600 body-font w-full z-10 h-20">
       <div className="container mx-auto bg-[#001233] flex px-4 py-4 flex-row items-center justify-between" 
       >
 
