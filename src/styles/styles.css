@@ -220,3 +220,16 @@ ul li{
   display: none;
 }
 }
+.shadow-custom {
+  box-shadow: 0 4px 6px -1px rgba(1, 24, 66, 0.7), 0 2px 4px -1px rgba(0, 15, 43, 0.7);
+}
+
+@media (max-width: 800px) {
+  .flex-wrap {
+    flex-direction: column;
+  }
+  .flex-wrap > div {
+    width: 100% !important;
+    margin-bottom:20px ;
+  }
+}
