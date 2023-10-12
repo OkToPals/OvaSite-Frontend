@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/styles.css';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 
@@ -6,48 +7,16 @@ import Link from 'next/link';
 
 const Uses = () => {
   return (
-    <section className="text-[#001233] body-font" id='uses'>
-  <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
-    <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-[#001233]">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-[#001233] font-bold">Empowering Change Across Sectors</h1>
-      <p className="leading-relaxed text-base">OverSite empowers various sectors—Government, NGOs, researchers, individuals, students, and
-       customer-centric organizations—enhancing transparency, streamlining missions, and fostering growth through valuable data insights. Adaptability underscores its commitment to driving positive change</p>
-      <Link href='/features' className="text-[#001233] inline-flex items-center mt-4 font-bold">Learn More
-        <svg fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
-      </Link>
-    </div>
-    <div className="flex flex-col md:w-1/2 md:pl-12">
-      <h2 className="title-font font-semibold text-[#001233] tracking-wider text-xl mb-3 font-bold">Used By</h2>
-      <nav className="flex flex-wrap list-none -mb-1">
-       <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233] hover:text-[#001233]">The Government</p>
-        </li><br/><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233]  hover:text-gray-800">Students</p>
-        </li><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233] hover:text-gray-800"></p>
-        </li><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233] hover:text-gray-800">NGOs</p>
-        </li><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233]  hover:text-gray-800">Research institutions and individual researchers</p>
-        </li><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233] hover:text-gray-800"></p>
-        </li><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233] hover:text-gray-800">Customer-centric Organizations</p>
-        </li><br/>
-        <li className="lg:w-1/3 mb-1 w-1/2">
-          <p className="text-[#001233] hover:text-gray-800"></p>
-        </li>
-      </nav>
-    </div>
-  </div>
+    <section id='sect'>
+ <div style={{textAlign:"left",width:'40%',margin:'30px'}}>
+<h1 style={{fontSize:'18px',lineHeight:'60px',fontWeight:'700'}}>Team Collaboration</h1>
+<p style={{fontSize:'16px',lineHeight:'36px',fontWeight:'400'}}>Our platform is designed to enhance teamwork by offering a suite of powerful collaboration features that enable you to work seamlessly with your colleagues, share valuable insights, and collectively arrive at smart solutions. </p>
+<Link href="/features">
+  <button style={{marginRight:'30px',marginTop:'30px'}} className="items-center bg-[#FF595A] border-0 py-2 px-6 focus:outline-none 
+    hover:bg-[#fe5000] rounded text-[#001233]  font-bold "  >Learn More
+  </button>
+  </Link>
+</div>
 </section>
   )
 }

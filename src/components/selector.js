@@ -1,19 +1,19 @@
-import { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import { Combobox, Transition } from '@headlessui/react';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
 
 function Selector({ data, selected, setSelected }) {
   const [query, setQuery] = useState('');
 
-  const filteredPeople =
-    query === ''
-      ? data
-      : data.filter((person) =>
-          person.name
-            .toLowerCase()
-            .replace(/\s+/g, '')
-            .includes(query.toLowerCase().replace(/\s+/g, ''))
-        );
+  const [filteredPeople, setFilteredPeople] = useState(data);
+
+  useEffect(() => {
+    // Filter data based on the query whenever query or data changes
+    const filteredData = data.filter((person) =>
+      person.name.toLowerCase().replace(/\s+/g, '').includes(query.toLowerCase().replace(/\s+/g, ''))
+    );
+    setFilteredPeople(filteredData);
+  }, [query, data]);
 
   return (
     <div className='w-3/3'>

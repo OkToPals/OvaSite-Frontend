@@ -5,40 +5,54 @@ import '../styles/styles.css'
 
 export const Steps = () => {
   return (
-<section className="p-6 bg-[#ffffff] dark:text-gray-100">
-  <div className="container mx-auto">
-    <span className="block mb-2 text-3xl font-bold text-center dark:text-[#001233]">How it works</span>
-    <h2 className="text-2xl text-center dark:text-[#001233]">Our application follows four steps to ensure efficient and effective data collection, monitoring, and evaluation.</h2>
-    <div className="flex flex-wrap justify-between my-16">
-      <div className="flex flex-col p-4 space-y-4 rounded-md bg-white shadow-custom" style={{ width: 'calc(25% - 1rem)' }}>
-        <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 text-xl font-bold rounded-full dark:bg-violet-400 dark:text-gray-900">1</div>
-        <p className="text-[#001233]">
-          <b className="text-2xl font-semibold">Collect</b> <br />Using our simple and intuitive interface, gather data from various resources in one centralized platform.
-        </p>
-      </div>
-      <div className="flex flex-col p-4 space-y-4 rounded-md bg-white shadow-custom" style={{ width: 'calc(25% - 1rem)' }}>
-        <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 text-xl font-bold rounded-full dark:bg-violet-400 dark:text-gray-900">2</div>
-        <p className="text-[#001233]">
-          <b className="text-2xl font-semibold">Monitor</b> <br />Keep track of the data collection process and monitor progress in real-time with our robust tracking features.
-        </p>
-      </div>
-      <div className="flex flex-col p-4 space-y-4 rounded-md bg-white shadow-custom" style={{ width: 'calc(25% - 1rem)' }}>
-        <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 text-xl font-bold rounded-full dark:bg-violet-400 dark:text-gray-900">3</div>
-        <p className="text-[#001233]">
-          <b className="text-2xl font-semibold">Evaluate</b><br />Analyze data with our advanced evaluation tools to extract meaningful insights and inform decision-making.
-        </p>
-      </div>
-      <div className="flex flex-col p-4 space-y-4 rounded-md bg-white shadow-custom" style={{ width: 'calc(25% - 1rem)' }}>
-        <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 text-xl font-bold rounded-full dark:bg-violet-400 dark:text-gray-900">4</div>
-        <p className="text-[#001233]">
-          <b className="text-2xl font-semibold">Collaborate</b><br />Work together seamlessly on projects, share insights, and arrive at smart solutions with our effective team collaboration features.
-        </p>
-      </div>
-    </div>
+<div style={{height:"100%"}}>
+  <div id='features'>
+<div><h1 id='topbtn'>How it works</h1></div>
+ <div style={{width:'700px',fontSize:'28px',lineHeight:'60px',fontWeight:'700'}}><p >How we carry out our operations</p></div>
+<div style={{width:'800px',fontSize:'20px',lineHeight:'36px',fontWeight:'400'}}><p>Our application follows four steps to ensure efficient and effective data collection, monitoring, and evaluation.</p></div> 
+ </div>
+
+<div id='frame2'>
+<div style={{textAlign:"left"}}  id='text'>
+<h1 style={{fontSize:'18px',lineHeight:'60px',fontWeight:'700'}}>Streamline Data Gathering</h1>
+<p style={{fontSize:'16px',lineHeight:'36px',fontWeight:'400'}}>In today&apos;s data-driven world, the ability to gather information efficiently and effectively is paramount. Our platform offers you a simplified and intuitive interface that empowers you to collect data from a wide range of sources with ease, all within a single, centralized hub.</p>
+</div>
+<div id='images'>
+<img src='/Frame177.png' alt='frame'/>
+</div>
   </div>
-</section>
 
+  <div id='frame22'>
+  <div id='images'>
+<img src='/Frame178.png' alt='frame'/>
+</div>
+<div style={{textAlign:"right"}}  id='text'>
+<h1 style={{fontSize:'18px',lineHeight:'60px',fontWeight:'700'}}>Real-Time Progress Monitoring</h1>
+<p style={{fontSize:'16px',lineHeight:'36px',fontWeight:'400'}}>In the realm of data collection, where precision and timeliness are paramount, having a robust system in place to monitor progress in real-time can be a game-changer. </p>
+</div>
+  </div>
 
+  <div id='frame2'>
+<div style={{textAlign:"left"}} id='text'>
+<h1 style={{fontSize:'18px',lineHeight:'60px',fontWeight:'700'}}>Evaluate and Elevate</h1>
+<p style={{fontSize:'16px',lineHeight:'36px',fontWeight:'400'}}>Our platform goes beyond basic data analysis, offering a suite of advanced evaluation tools that enable you to delve deep into your data, uncover patterns, and derive actionable insights to inform your decision-making process.</p>
+</div>
+<div id='images'>
+<img src='/Frame180.png' alt='frame'/>
+</div>
+  </div>
+
+  <div id='frame22'>
+  <div id='images'>
+<img src='/Frame182.png' alt='frame' />
+</div>
+<div style={{textAlign:"right"}}  id='text'>
+<h1 style={{fontSize:'18px',lineHeight:'60px',fontWeight:'700'}}>Team Collaboration</h1>
+<p style={{fontSize:'16px',lineHeight:'36px',fontWeight:'400'}}>Our platform is designed to enhance teamwork by offering a suite of powerful collaboration features that enable you to work seamlessly with your colleagues, share valuable insights, and collectively arrive at smart solutions. </p>
+</div>
+  </div>
+ 
+</div>
     );
 };
 

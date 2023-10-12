@@ -1,9 +1,14 @@
 import React from 'react';
 import TopHeader from '@/components/topheader';
+import Header from '@/components/header'
+import Footer from '@/components/footer'
 import '@/styles/styles.css';
+
+
 export default function features() {
     return (
       <div>
+        <Header/>
       <TopHeader />
       <div id='div1'>
        <div>
@@ -73,7 +78,9 @@ export default function features() {
         <h2 style={{fontWeight:'bolder',}}>Data Export and Import</h2>
      <p>Export data in various formats (e.g., CSV, Excel) and import data from external sources to your project</p>
        </div>
-        </div></div> 
+        </div>
+        </div> 
+        <Footer/>
       </div>
         );
     }
